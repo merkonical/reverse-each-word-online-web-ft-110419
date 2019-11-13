@@ -5,6 +5,7 @@ def reverse_each_word(sentence)
     word.reverse
   end
   reversed_sentence.join(" ")
+  binding.pry 
 end 
 
 # def reverse_each_word(sentence)
