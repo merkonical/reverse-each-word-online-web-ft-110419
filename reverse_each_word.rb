@@ -2,7 +2,8 @@ require 'pry'
 
 def reverse_each_word(sentence)
   sentence.split.collect do |word|
-    word.split
+    word.reverse.join(" ")
+  end 
 end 
 
 # def reverse_each_word(sentence)
